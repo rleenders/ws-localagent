@@ -1,0 +1,19 @@
+{
+  "name": "ws-localagent",
+  "version": "0.0.1",
+  "description": "A local agent service that can reach out to and process commands from a remote server",
+  "main": "index.js",
+  "scripts": {
+    "test": "env ENVIRONMENT=test mocha  \\\"spec/*.spec.js\\\""
+  },
+  "keywords": [
+    "local-agent",
+    "websockets",
+    "client"
+  ],
+  "author": "Robin Leenders",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^2.3.0",
+  }
+}
